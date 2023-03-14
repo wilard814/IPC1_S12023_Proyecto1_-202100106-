@@ -16,13 +16,10 @@ private static String esteusuario;
 
     public Login() {
         
-     if (!usuarioExiste("admin")) {
-        usuarios.add(new Usuario("admin", "admin", "", "", "", "", "", "", "", true));
+     if (!usuarioExiste("ipc1_202100106@ipc1delivery.com")) {
+        usuarios.add(new Usuario("ipc1_202100106@ipc1delivery.com", "202100106", "", "", "", "", "", "", "", true));
     }
-    if (!usuarioExiste("pipe")) {
-        usuarios.add(new Usuario("pipe", "pipe", "", "", "", "", "", "", "", false));
-    }
-
+   
     initComponents();
     this.setLocationRelativeTo(null);
         
